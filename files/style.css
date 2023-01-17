@@ -129,6 +129,10 @@ li {
     color: #fff;
 }
 
+.personal-information-container .pdf-visible {
+    display: none;
+}
+
 /* == personal information container end */
 
 
@@ -586,5 +590,9 @@ li {
     .personal-information-container .info-text {
         font-size: 10px;
 
+    }
+
+    .personal-information-container .pdf-visible {
+        display: flex;
     }
 }

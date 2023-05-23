@@ -560,6 +560,25 @@ li {
 }
 
 
+/* ======= SMALL SCREEN ======== */
+
+@media only screen and (max-width: 385px) {
+    .header .avatar {
+        width: 85px;
+        height: 85px;
+        margin-left: 50px;
+    }
+
+    .header .name {
+        margin: 25px 0;
+    }
+
+    .personal-information-container {
+        margin-top: 15px;
+    }
+}
+
+
 
 /* ======= PRINT STYLES ======== */
 
